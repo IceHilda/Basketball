@@ -25,7 +25,7 @@ if __name__ == "__main__":
             else:
                 player1['experience'] = False
         return team_name, team_players #TODO NOT sure how to call these returned values for later code
-    team_name1, team_players1 = clean_data()
+    #team_name1, team_players1 = clean_data()
     #def balance_teams():
     def balance_teams():
     # HINT: To find out how many players should be on each team, divide the length of
@@ -53,6 +53,6 @@ while True:
     elif choice1 == "2":
         quit
     else:
-        print("Please enter the number of your choice again please")
+        print("Please enter the number of your choice again please") #should I try exceptions?
         choice1 = input("Please Select From the Following Menus:\n1) Display Team Stats\n2) Quit\nChoice>  ")
             #This code is not running properly, the print() never gets run despite a non 1-2 choice.
